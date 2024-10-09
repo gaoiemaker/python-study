@@ -1,0 +1,6 @@
+"免费版：最多上传 2G 视频/天":"Versión gratuita: Hasta 2G de video/día",
+"试用版：最多上传 2G 视频/天":"Versión de prueba: Hasta 2G de video/día",
+"进阶版：最多上传 4G 视频/天":"Versión avanzada: Hasta 4G de video/día",
+"专业版：最多上传 8G 视频/天":"Versión profesional: Hasta 8G de video/día",
+"企业版：最多上传 30G 视频/天":"Versión empresarial: Hasta 30G de video/día",
+"已超出今日上传容量限制":"Se ha superado el límite de carga de hoy",
