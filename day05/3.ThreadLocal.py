@@ -1,7 +1,8 @@
 # 一个全局dict存放所有的数据，然后以thread自身作为key获得线程对应的数据 全局字典 就是 threadlocal、
 
 import threading
-
+import logging
+logging.basicConfig(level=logging.INFO)
 local_school = threading.local()
 
 
@@ -18,6 +19,8 @@ def process_thread(name):
 
 t1 = threading.Thread(target=process_thread,args=('noble',),name='t1')
 t2 = threading.Thread(target=process_thread,args=('jj',),name='t2')
+
+logging.info(local_school)
 
 t1.start()
 t2.start()
